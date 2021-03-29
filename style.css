@@ -18,7 +18,7 @@
 }
 
 @media (max-width:768px) {
-.eisenhower-matrix { 
+.eisenhower-matrix {
     text-align: center;
 }
 }
@@ -39,10 +39,10 @@
     margin:0;
     padding: 0px;
 }
-.item,  .section-name {
+.item, .section-name {
     list-style:none;
 }
-.task__input,.button{
+.task__input, .button {
     outline:none;
 }
 .button {
@@ -96,11 +96,10 @@ p > .button:hover {
 }
 
 /* Task list */
-.item{
+.item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,7 +117,7 @@ p > .button:hover {
     font-size: 18px;
     width: 226px;
 }
-.item >    .task__input {
+.item > .task__input {
     width: 226px
 }
 .item > .delete:hover {
