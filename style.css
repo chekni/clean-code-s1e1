@@ -16,12 +16,6 @@
 .eisenhower-matrix .eisenhower-matrix__more-information {
     font-family: fantasy, cursive;
 }
-
-@media (max-width:768px) {
-.eisenhower-matrix {
-    text-align: center;
-}
-}
 .centered-main-page-element {
     display: block;
     width: 500px;
@@ -81,15 +75,10 @@
 .task__input:focus {
     color: #333;
 }
-
 /* New Task */
 .task__input.new-task {
     width: 318px;
 }
-p > .button:hover {
-    color: #0FC57C;
-}
-
 /* Task list */
 .item {
     overflow: hidden;
@@ -99,14 +88,10 @@ p > .button:hover {
     justify-content: space-between;
     align-items: center;
 }
-.item> * {
-    vertical-align: middle;
-}
-
 .item> .item__checkbox {
     margin: 0 10px;
 }
-.item > label {
+.item > .task__label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -114,9 +99,6 @@ p > .button:hover {
 }
 .item > .task__input {
     width: 226px;
-}
-.item > .delete:hover {
-    color: #CF2323;
 }
 .delete .remove-icon {
     height: 2em;
@@ -145,4 +127,10 @@ p > .button:hover {
 
 .list .item.edit-mode .task__label {
     display: none;
+}
+
+@media (max-width:768px) {
+    .eisenhower-matrix {
+        text-align: center;
+    }
 }
