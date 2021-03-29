@@ -32,9 +32,6 @@
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
-    display: flex;
-}
 .list {
     margin: 0;
     padding: 0px;
