@@ -39,10 +39,12 @@
     margin: 0;
     padding: 0px;
 }
-.item, .section-name {
+.item, 
+.section-name {
     list-style: none;
 }
-.task__input, .button {
+.task__input, 
+.button {
     outline: none;
 }
 .button {
